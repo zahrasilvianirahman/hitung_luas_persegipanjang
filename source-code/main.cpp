@@ -1,38 +1,21 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
-// ========================================
-// TUGAS INFORMATIKA KELAS XII
-// IMPLEMENTASI ALGORITMA DALAM C++
-// ========================================
-
-// Nama Lengkap :
-// Kelas        :
-// Nomor Absen  :
-// Judul Program:
-
 int main() {
+  float panjang, lebar, luas;
+   
+  cout<< "hitung nilai luas persegi panjang" <<endl;
 
-    // 1. DEKLARASI VARIABEL
-    // Deklarasikan variabel yang diperlukan.
+  cout<< " masukkan nilai panjang :" <<endl;
+  cin>> panjang;
 
+  cout<< "masukkan nilai lebar :" <<endl;
+  cin>> lebar;
+  luas = panjang * lebar;
 
-    // 2. INPUT
-    // Tuliskan perintah untuk menerima data
-    // dari pengguna menggunakan cin atau getline.
-
-
-    // 3. PROSES
-    // Tuliskan proses atau perhitungan program.
-    // Gunakan IF-ELSE jika diperlukan.
-    // Gunakan FOR atau WHILE jika diperlukan.
-
-
-    // 4. OUTPUT
-    // Tuliskan perintah untuk menampilkan hasil
-    // menggunakan cout.
-
-
-    return 0;
+  cout<< "nilai luas adalah =" << luas <<endl ;
+  cout<< endl;
+    
+  
+  return 0;
 }
